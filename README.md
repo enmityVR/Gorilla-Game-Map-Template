@@ -4,15 +4,10 @@ The following is a simple example that demonstrates how to create a primitive ob
 
 ```
 -- This is a comment. The game engine ignores these lines.
-```
-
-```
 -- Create a red cube named 'MyFirstCube'
 CreatePrimitive(
-```
     "MyFirstCube",                      -- A unique name for the object
     "cube",                             -- The primitive type
-```
     Vector3(0, 1, 2),                   -- Position (x, y, z)
     Vector3(0, 45, 0),                  -- Rotation in degrees (x, y, z)
     Vector3(0.5, 0.5, 0.5),             -- Scale (x, y, z)
