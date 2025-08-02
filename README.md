@@ -13,9 +13,6 @@ CreatePrimitive(
     Vector3(0.5, 0.5, 0.5),             -- Scale (x, y, z)
     Color(1, 0, 0)                      -- Color (r, g, b)
 )
-```
-
-```
 -- Print a message to the in-game computer console
 log("Cube created successfully.")
 ```
